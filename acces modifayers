@@ -1,0 +1,59 @@
+# class A:
+#    a=10
+#    _b=20
+#    __c=None
+#    print(a," ",_b," ",__c) 
+
+# class B(A):
+#    def show(self):
+#       print(self.a)
+#       print(self._b)
+#       print(self._ _c)
+# obj=B()
+# obj.show()
+
+# class A():
+#     a=10
+#     _b=20
+#     __c=None
+#     print(a," ",_b," ",__c)
+#     def Add(self):
+#         self.__c=self.a + self._b
+#         print("Addition: ",self.__c)
+# obj=A()
+# obj.Add()
+# print(obj.a)
+# print(obj._b)
+# print(obj.__c)
+  
+
+
+
+# class A :
+#     a=10
+#     _b=20
+#     __c=None
+#     print(a," ",_b," ",__c)
+# class B(A) :
+#     def show (self):
+#         print(self.a)
+#         print(self._b)
+#         print(self.__c)    
+# obj=B()
+# obj.show()
+
+
+
+class A:
+    a=10
+    _b=20
+    __c=None
+    print(a," ",_b," ",__c)
+class B(A):
+    pass
+obj=B()
+print(obj.a)
+print(obj._b)
+print(obj.__c)
+
+
